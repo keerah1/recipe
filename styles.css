@@ -1,0 +1,183 @@
+body{
+  font-family:  outfit,sans-serif;
+  background-color: rgb(247, 230, 217); 
+  margin-top: 90px;
+  margin-left: 100px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: auto;
+  
+}
+.total-d{
+  width: 1000px;
+  max-width: 1600px;
+  background-color: white;
+  border-radius: 15px;
+  padding-left: 200px;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  padding-right: 0;
+  
+  
+  
+}
+.omelette-i{
+  width: 800px;
+  border-radius: 20px;
+  padding-top: 20px;
+  padding-bottom: 100px;
+  
+}
+.omelette-type{
+  font-size:30px ;
+
+}
+.omelette-description{
+  font-size: 20px;
+  width: 800px; 
+  color: rgb(44, 43, 43);
+  margin-bottom: 15px;
+}
+.omelette-time{
+  font-size: 30px;
+  margin-left: 25px;
+  color:rgb(107, 15, 58) ;
+  font-weight: 500;
+ 
+ 
+}
+.omelette-time-d{
+   background-color: rgb(255, 246, 246);
+   height: 200px;
+   width: 800px;
+   border-radius: 12px;
+   margin-top: 10px;
+   padding-top: 10px;
+   padding-bottom: 60px;
+   
+}
+.i-wan-try li, .i-wan-see li,.una-too-do li, .god-abeg{
+  font-size: 20px;
+  color: rgb(48, 47, 47); 
+  margin-bottom: 20px;
+  
+} 
+
+ .una-too-do{
+  padding-left: 0px; 
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.i-wan-see{
+  padding-left: 12px;
+}
+
+.omelette-ingredient, .omelette-instruction, .omelette-nutrient{
+  font-size: 30px;
+  color: rgb(156, 53, 53);
+  margin-left: 0px;
+  margin-bottom: 0;
+
+}
+.omelette-instruction-d{
+  border: solid;
+  border-color: rgb(245, 238, 238);
+  border-width: 1px;
+  border-left: none;
+  border-right: none;
+  border-bottom: solid;
+  border-bottom-color:rgb(245, 238, 238) ;
+  padding-bottom: 5px;
+  border-bottom-width:1px ;
+  margin-top: 0;
+  
+}
+.una-too-do-d{
+  width:800px ;
+}
+ol{ 
+list-style: none;
+counter-reset: list-counter;
+}
+ol li{
+counter-increment: list-counter;
+padding-left: 20px;
+position: relative;
+}
+ol li::before{
+content: counter(list-counter)".";
+position: absolute;
+left: 0;
+color: rgb(146, 37, 37);
+}
+.nutrition-d div {
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+padding-right: 200px;
+border: solid;
+border-width: 1px;
+border-color: rgb(245, 238, 238);
+border-left: none;
+border-right: none;
+border-top: none;
+height: 40px;
+
+}
+
+
+.nutrition-d p,
+.fat-d p{
+padding:25px ;
+}
+
+.class-p{
+font-size: 20px;
+  color: rgb(32, 32, 32); 
+  margin-bottom: 0;
+  margin-top: 0;
+
+}
+.fat-d{
+display: flex;
+align-items: center; 
+flex-direction: row;
+justify-content: space-between;
+padding-right: 200px; 
+}
+.a-p-1,
+.a-p-2,
+.a-p-3,
+.a-p-4{
+color:rgb(156, 53, 53) ;
+font-size: 20px;
+}
+
+@media(max-width:400px){
+   body{
+    background-color: transparent;
+    margin:0;
+    padding: 0;
+    width: 400px;
+    
+   }
+   .total-d{
+    margin: 0;
+    padding: 0;
+    width: 380px;
+   }
+
+   .omelette-i{
+    padding: 0;
+   }
+}
+
+
+
+
+
+
