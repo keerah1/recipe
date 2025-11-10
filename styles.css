@@ -21,8 +21,9 @@ body{
   padding-bottom: 10px;
   padding-right: 0;
   
-  
-  
+}
+.inner{
+  margin-left: 50px;
 }
 .omelette-i{
   width: 800px;
@@ -157,24 +158,92 @@ color:rgb(156, 53, 53) ;
 font-size: 20px;
 }
 
-@media(max-width:400px){
+@media (max-width:600px){
    body{
     background-color: transparent;
-    margin:0;
-    padding: 0;
-    width: 400px;
-    
+    padding-top: 0;
+    margin-left: 0;
    }
    .total-d{
-    margin: 0;
-    padding: 0;
-    width: 380px;
+    padding-top: 0;
+    width: 100%;
+    border-radius: 0;
+    padding-left: 0;
+    
    }
-
    .omelette-i{
-    padding: 0;
+    width: 100%;
+    padding-bottom: 40px;
+    
+  }
+  .omelette-description{
+    width: 100%;
+    font-size: 12px;
+    margin-bottom: 25px;
+    
+    
+  }
+  
+  .omelette-type{
+    font-size: 20px;
+    
+  }
+   .omelette-time-d{
+    width: 100%;
+    height: 140px;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+    
    }
+   .omelette-time{
+    font-size:20px ;
+
+    
+    
+   }
+   .i-wan-try li, .i-wan-see li,.una-too-do li, .god-abeg{
+    font-size: 12px;
+    
+    
+   }
+   .omelette-ingredient, .omelette-instruction, .omelette-nutrient{
+    font-size: 20px;
+    
+    
+   }
+  .omelette-instruction-d{
+    width: 100%;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    margin-top: 30px;
+    padding-top: 20px;
+    
+    
+  }
+  .una-too-do-d{
+    width: 100%;
+  
+    
+  }
+  .class-p{
+    font-size: 12px;
+  
+    
+  }
+  
+.a-p-1,
+.a-p-2,
+.a-p-3,
+.a-p-4{
+  font-size: 12px;
+  
+    
 }
+
+
+  
+   
+     }
 
 
 
